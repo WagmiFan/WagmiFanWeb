@@ -10,7 +10,7 @@ export default defineHopeConfig({
   dest: ".vuepress/dist",
   lang: 'en-US',
   // title: 'Wagmi Fan',
-  description: 'Wagmi.Fan:Simplify ink/sign-ing of Syber Era, including multi-signature, unified-login, agreement-inking and signature-verification on Multi Chain with privacy protection based on Zero-Knowledge-Proof technology.', 
+  description: 'Wagmi.Fan:Fans of WagMi(We‘re all going to make it)', 
   head: [ 
     ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
     ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/images/icons/apple-touch-icon.png' }],
@@ -28,13 +28,10 @@ export default defineHopeConfig({
   locales: { 
     '/': {
       lang: 'en-US',
-      // title: 'Wagmi Fan Wiki',
-      // description: 'Wagmi.Fan:Simplify ink/sign-ing of Syber Era, including multi-signature, unified-login, agreement-inking and signature-verification on Multi Chain with privacy protection based on Zero-Knowledge-Proof technology.',
     },
     '/zh/': {
       lang: 'zh-CN',
-      // title: 'Wagmi Fan Wiki',
-      description: '赛博签署(Wagmi.Fan):简化赛博(Syber)时代的数字签署(ink/sign)，包括多重签名、统一登录、协议签署、签名验证，支持多链和基于零知识证明技术的隐私保护。',
+      description: 'WagMi 粉丝(Wagmi Fan) : WagMi(We‘re all going to make it)粉丝社区。',
     },
   },
   // theme: '@vuepress/theme-default', 
